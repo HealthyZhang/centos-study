@@ -1,7 +1,7 @@
 ## 1、系统类型
 - centos6的系统类型是sysvinit（sysvinit是system V的init系统）
 
-- centos7的系统类型是systemd（systemed是linux系统最新的初始化系统intt，systemed的设计目标是克服sysvinit固有的缺点，从而高效提升系统的启动速度）。
+- centos7的系统类型是systemd（systemed是linux系统最新的初始化系统init，systemed的设计目标是克服sysvinit固有的缺点，从而高效提升系统的启动速度）。
 
 - 可以通过pstree -p查看系统类型，centos6的第一个进程是init（pid=1），centos7的第一个进程为systemd（pid=1）
 
